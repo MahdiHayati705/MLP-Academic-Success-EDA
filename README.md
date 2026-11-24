@@ -31,8 +31,8 @@ This project tests the effect of changing each of these settings:
 
 ## What This Project Covers
 
-1. **Check Tools & Load Data:** Checks Python and deep learning library versions, loads UCI dataset `697` (`4,424` rows and `37` columns), cleans column names, and groups columns into numbers (`18`), ordered categories (`4`), and unordered categories (`14`)[1].
-2. **Explore & Clean Data:** Looks at basic number stats (min, max, average, middle, spread), draws charts for columns like `Age at enrollment`, `Admission grade`, and `Previous qualification (grade)`, and checks for missing values (`0`) or duplicate rows (`0`) in the features[1].
+1. **Check Tools & Load Data:** Checks Python and deep learning library versions, loads UCI dataset `697` (`4,424` rows and `37` columns), cleans column names, and groups columns into numbers, ordered categories, and unordered categories[1].
+2. **Explore & Clean Data:** Looks at basic number stats (min, max, average, middle, spread), draws charts for columns like `Age at enrollment`, `Admission grade`, and `Previous qualification (grade)`, and checks for missing values or duplicate rows in the features[1].
 3. **Test Hyperparameters:** Changes each hyperparameter above (`HIDDEN_LAYERS`, `HIDDEN_UNITS`, `ACTIVATION`, `OPTIMIZER`, `LEARNING_RATE`, `BATCH_SIZE`, `DROPOUT_RATE`, `BATCH_NORMALIZATION`, `EARLY_STOPPING`, `PATIENCE`, `WEIGHT_INITIALIZATION`, `LOSS_FUNCTION`, and `EPOCHS`) to see how it affects results.
 4. **Pick the Best Model:** Compares the tested configurations and selects the best-performing MLP model.
 5. **Confusion Matrix:** Shows where the best model gets predictions right and where it mixes up student outcomes.
