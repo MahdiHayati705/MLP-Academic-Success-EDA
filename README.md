@@ -6,7 +6,7 @@ A clear, beginner-friendly project using the UCI **Predict Students' Dropout and
 ## Main Goal
 
 The purpose of this project is to:
-1. Explore and prepare the student dataset for an MLP model[1].
+1. Explore and prepare the student dataset for an MLP model.
 2. Check the effect of changing each **MLP hyperparameter**.
 3. Choose the **best MLP model**.
 4. Inspect the best model using a **confusion matrix**, a **neuron heatmap**, and an experiment that **removes one of two similar neurons** in a layer.
@@ -31,8 +31,8 @@ This project tests the effect of changing each of these settings:
 
 ## What This Project Covers
 
-1. **Check Tools & Load Data:** Checks Python and deep learning library versions, loads UCI dataset `697` (`4,424` rows and `37` columns), cleans column names, and groups columns into numbers, ordered categories, and unordered categories[1].
-2. **Explore & Clean Data:** Looks at basic number stats (min, max, average, middle, spread), draws charts for columns like `Age at enrollment`, `Admission grade`, and `Previous qualification (grade)`, and checks for missing values or duplicate rows in the features[1].
+1. **Check Tools & Load Data:** Checks Python and deep learning library versions, loads UCI dataset `697` (`4,424` rows and `37` columns), cleans column names, and groups columns into numbers, ordered categories, and unordered categories.
+2. **Explore & Clean Data:** Looks at basic number stats (min, max, average, middle, spread), draws charts for columns like `Age at enrollment`, `Admission grade`, and `Previous qualification (grade)`, and checks for missing values or duplicate rows in the features.
 3. **Test Hyperparameters:** Changes each hyperparameter above (`HIDDEN_LAYERS`, `HIDDEN_UNITS`, `ACTIVATION`, `OPTIMIZER`, `LEARNING_RATE`, `BATCH_SIZE`, `DROPOUT_RATE`, `BATCH_NORMALIZATION`, `EARLY_STOPPING`, `PATIENCE`, `WEIGHT_INITIALIZATION`, `LOSS_FUNCTION`, and `EPOCHS`) to see how it affects results.
 4. **Pick the Best Model:** Compares the tested configurations and selects the best-performing MLP model.
 5. **Confusion Matrix:** Shows where the best model gets predictions right and where it mixes up student outcomes.
@@ -42,9 +42,9 @@ This project tests the effect of changing each of these settings:
 
 ## What You Need
 
-- `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `torch`, `tensorflow`[1]
-- `ucimlrepo` (`pip install ucimlrepo`)[1]
+- `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `torch`, `tensorflow`
+- `ucimlrepo` (`pip install ucimlrepo`)
 
 ## How to Run
 
-Open the notebook in Jupyter Notebook or Google Colab and run the cells from top to bottom[1].
+Open the notebook in Jupyter Notebook or Google Colab and run the cells from top to bottom.
